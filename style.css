@@ -388,6 +388,26 @@ aside ul li a img {
   border-bottom: solid 4px #0088ff;
 }
 
+* body main .contact form #email:focus::-webkit-input-placeholder {
+  text-transform: none;
+}
+
+* body main .contact form #email:focus:-ms-input-placeholder {
+  text-transform: none;
+}
+
+* body main .contact form #email:focus::-ms-input-placeholder {
+  text-transform: none;
+}
+
+* body main .contact form #email:focus::placeholder {
+  text-transform: none;
+}
+
+* body main .contact form #email:focus {
+  text-transform: lowercase;
+}
+
 * body main .contact form textarea {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -590,7 +610,7 @@ aside ul li a img {
     margin: 10% 0 0 0;
   }
   * body .success section h2 {
-    font-size: 24px;
+    font-size: 30px;
     padding: 0 0 20px 0;
   }
   * body .success section p {
