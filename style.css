@@ -439,6 +439,24 @@ aside ul li a img {
   cursor: pointer;
 }
 
+* body .success section h2 {
+  font-size: 24px;
+  padding: 0 0 20px 0;
+}
+
+* body .success section p {
+  padding: 0 0 10px 0;
+}
+
+* body .success section a {
+  text-decoration: none;
+  color: #0088ff;
+}
+
+* body .success section a:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 768px) {
   * body {
     display: -ms-grid;
@@ -548,6 +566,9 @@ aside ul li a img {
     height: 50px;
     font-size: 20px;
   }
+  * body main .contact form #honey {
+    display: none;
+  }
   * body main .contact form #name {
     width: 48.8%;
   }
@@ -563,6 +584,20 @@ aside ul li a img {
   }
   * body main .contact form #send {
     width: 100%;
+  }
+  * body .success {
+    padding: 5% 0 10% 10%;
+    margin: 10% 0 0 0;
+  }
+  * body .success section h2 {
+    font-size: 24px;
+    padding: 0 0 20px 0;
+  }
+  * body .success section p {
+    padding: 0 0 10px 0;
+  }
+  * body .success section a {
+    right: 0;
   }
 }
 
